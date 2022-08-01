@@ -1,0 +1,26 @@
+'''
+Создать информационную систему позволяющую работать с сотрудниками
+некой компании \ студентами вуза \ учениками школы
+'''
+database = {}
+
+
+def reading_file_to_dict(number_file):
+    with open(f'{number_file}.txt', 'r', encoding='utf-8') as file_1:
+        data = [i.split('\n')[0] for i in file_1.readlines()]
+        # print(data)
+        database[number_file] = []
+        for i in data:
+            database[number_file].append(tuple(i.split(';')))
+        print(database)
+
+
+def print_childrens(second_name):
+    pass
+
+
+reading_file_to_dict(1)
+reading_file_to_dict(2)
+print(database)
+print_childrens('Иванов')
+# Создать решение для вывода детей по фамилии
