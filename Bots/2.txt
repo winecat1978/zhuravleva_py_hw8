@@ -1,3 +1,10 @@
 id;par_id;name;surname;bd
 1;1;Egor;Ivanov;01.08.2022
 2;1;Misha;Ivanov;02.08.2021
+3;3;Nestor;Prudcev;29.07.2020
+4;3;Traviatta;Prudceva;13.03.2021
+5;4;Akakiy;Polkin;24.04.2002
+6;5;Bulka;Zhuravleva;19.07.2021
+7;5;Simosha;Zhuravlev;01.09.2016
+8;6;Feodor;Barmin;27.02.2002
+9;6;Irina;Barmina;22.02.1999

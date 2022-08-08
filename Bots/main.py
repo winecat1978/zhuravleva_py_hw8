@@ -25,4 +25,4 @@ reading_file_to_dict(2)
 print(database)
 
 #Вывести всех детей Иванова
-print_children('Ivanov')
+print_children('Barmina')
