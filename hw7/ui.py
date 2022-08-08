@@ -10,7 +10,7 @@ def interface():
     command = int(input("Введите номер операции: "))
 
     while command < 1 or command > 4:
-        print('Ты дурак?! Даю тебе последний шанс')
+        print('Даю тебе последний шанс')
         command = int(input("Введите номер операции: "))
 
     if command == 1:
